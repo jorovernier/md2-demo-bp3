@@ -24,17 +24,17 @@ backpack.push('great ball', 'antidote', 'revive')
 //     console.log(backpack[i])
 // }
 
-// if(backpack.length >= 3){
-//     console.log('hit 3 statement')
-//     for(let i = 0; i < 3; i++){
-//         console.log(backpack[i])
-//     }
-// } else {
-//     console.log('hit else')
-//     for(let i = 0; i < backpack.length; i++){
-//         console.log(backpack[i])
-//     }
-// }
+if(backpack.length >= 3){
+    console.log('hit 3 statement')
+    for(let i = 0; i < 3; i++){
+        console.log(backpack[i])
+    }
+} else {
+    console.log('hit else')
+    for(let i = 0; i < backpack.length; i++){
+        console.log(backpack[i])
+    }
+}
 
 // console.log(backpack)
 
